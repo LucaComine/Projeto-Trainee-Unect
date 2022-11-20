@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@font-face{
+    font-family: 'FontePadrao';
+    src: url("../_fontes/CormorantGaramond-SemiBold.otf");
+}
+    :root{
+        --color-fundo: #57290B;
+        --color-letra: #EBDACC;
+		--color-botao: #B2784A;
+        
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+/* Formatação header escritas */
+body, h1{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px; 
+		font-weight: normal;
+        line-height: 22px;
+        color: var(--color-letra);
+    }
+.header, .header-esquerda, .header-direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    background-color: var(--color-fundo);
+    height: 100px;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+
+}
+div#header_sn{
+    position: absolute;
+    padding: 39px 0px 39px 119px;
+    z-index: 99;
+	
+}
+
+div#header_serv{
+    position: absolute;
+    padding: 39px 0px 39px 324px;
+    z-index: 36;
+}
+div#header_logo{
+    position: absolute;
+    padding: 39px 0px 39px 698px;
+	z-index: 35;
+}
+div#header_cont{
+    position: absolute;
+    padding: 39px 0px 39px 1400px;
+    z-index: 34;
+}
+div#header_tel{
+    position: absolute;
+    padding: 39px 0px 39px 1650px;
+    z-index: 10;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--color-letra);
+	
+}
+
+
+div#header_sn h1::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+    top: 64px;
+	left: 130px;
+	border-radius: 1px;
+}
+
+div#header_serv h1::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+    top: 64px;
+	left: 332px;
+	border-radius: 1px;
+}
+
+div#header_cont h1::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+    top: 64px;
+	left: 1409px;
+	border-radius: 1px;
+}
+
+/* Format header imgs */
+img#logo_header{
+    position: absolute;
+    width: 43px;
+    height: 54.86px;
+    top:7px;
+    padding: 0 181px;
+}
+img#logotel{
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+figure figcaption{
+    position: relative;
+    top:15px;
+    left: 135px;
+}
+

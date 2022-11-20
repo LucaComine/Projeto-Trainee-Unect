@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+    :root{
+        --color-fundo: #57290B;
+        --color-letra: #EBDACC;
+		--color-botao: #B2784A;
+        
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+	position: absolute;
+	width: 1440px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+		background-color: var(--color-fundo);
+	}
+/* Formatação header escritas */
+a.escritasgerais, h1.escritasgerais{
+	text-decoration: none;
+	color: var(--color-letra);
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+a.escritalogo, figcaption{
+	text-decoration: none;
+	color: var(--color-letra);
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+/* Posicionamento dos elementos */
+h1#sn{
+	position: absolute;
+	width: 71px;
+	height: 22px;
+	left: 119px;
+	top: 39px;
+}
+h1#serv{
+	position: absolute;
+	width: 59px;
+	height: 22px;
+	left: 324px;
+	top: 39px;
+}
+figure.logoheader {
+	position: absolute;
+	left: 698px;
+	top: 2px;
+}
+figure.logoheader figcaption{
+	position: relative;
+	left: -37px;
+	top:-10px;
+}
+h1#cont{
+	position: absolute;
+	width: 60px;
+	height: 22px;
+	left: 1055px;
+	top: 39px;
+}
+h1#tel{
+	position: absolute;
+	width: 90px;
+	height: 22px;
+	left: 1230px;
+	top: 40px;
+}
+img#logotel{
+	position: absolute;
+	left: -28px;
+	top: 2px;
+}
+/* Formatação imagens */
+figure.logoheader img{
+	width: 60px;
+	height: 70px;
+}
+
+/* Sublinhados */
+h1#sn::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+	top: 25px;
+	left: 11px;
+	border-radius: 1px;
+}
+h1#serv::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+    top: 25px;
+	left: 9px;
+	border-radius: 1px;
+}
+h1#cont::before{
+	border-bottom: 2px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 43px;
+    top: 25px;
+	left: 8px;
+	border-radius: 1px;
+}

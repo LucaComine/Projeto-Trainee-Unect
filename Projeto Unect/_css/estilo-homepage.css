@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteTextos';
+    src: url("../_fontes/OpenSans-VariableFont_wdth,wght.otf");
+}
+
+
+/* Formatação banner */
+div#banner{
+	position: relative;
+	top:100px;
+}
+figure.img1{
+	position: relative;
+}
+figure.img1 img{
+	width: 1440px;
+	height: 559px;
+}
+
+figure.img1 figcaption{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, .4);
+	color: #F0F0F0;
+	width: 77.25%;
+	height: 99.25%;
+	box-sizing: border-box;
+}
+
+figure.img1 figcaption h1.himg1{
+	font-size: 56px;
+	line-height: 76px;
+	padding: 64px 0px 0px 119px;
+}
+figure.img1 figcaption p{
+	font-size: 24px;
+	line-height: 33px;
+	padding: 16px 0px 0px 119px;
+}
+ul#botao1{
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+	position: absolute;
+	top: 414px;
+	left: 120px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+ul#botao1:hover {
+	background-color: #CA8E67;
+}
+ul#botao1 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	display: inline-block;
+}
+ul#botao1 li a{
+    text-decoration: none;
+	color: #F0F0F0;
+}
+img#seta1{
+	width: 21.83px;
+	height: 13px;
+}
+
+/* Formatação "sobre nós" */
+div#sobrenoshp{
+	background-color: #F5F3ED;	
+	height: 630px;
+	z-index: -2;
+	margin: 5px;
+	margin-right: 424px;
+	
+}
+div#sobrenoshp h1#sobrenoshp{
+	position: absolute;
+	width: 222px;
+	height: 56px;
+	left: 120px;
+	top: 715px;
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #1F0C00;
+	z-index: 0;
+}
+h1#sobrenoshp::before {
+	content: "";
+	position: absolute;
+	top:27px;
+	left: 120px;
+	bottom: 16px;
+	width: 245px;
+	height: 28px;
+	transform: translateX(-55%);
+	background: #FBC9A8;
+	z-index: -1;
+}
+
+div#sobrenoshp p{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1F0C00;
+}
+div#sobrenoshp p#p1snhp{
+	position: absolute;
+	width: 589px;
+	height: 96px;
+	left: 120px;
+	top: 810px;
+}
+div#sobrenoshp p#p2snhp{
+	position: absolute;
+	width: 589px;
+	height: 72px;
+	left: 120px;
+	top: 922px;
+}
+ul#botao2{
+	background-color: #8F542E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 30px;
+	gap: 27px;
+	position: absolute;
+	left: 120px;
+	top: 1042px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+ul#botao2:hover {
+	background-color: #CA8E67;
+}
+ul#botao2 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	letter-spacing: 0.03em;
+	position: relative;
+	display: inline-block;
+}
+ul#botao2 li a{
+    text-decoration: none;
+	color: #F0F0F0;
+}
+img#imgsn{
+	position: absolute;
+	width: 352px;
+	height: 340.41px;
+	left: 912px;
+	top: 771px;
+}
+
+/* Formatação cafe onda */
+img#cafeonda{
+	position: absolute;
+	top: 1200px;
+}
+
+/* Formatação "venha se apaixonar" */
+div#vsa{
+	background-color: #80451F;	
+	height: 794px;
+	z-index: -2;
+	margin-top: 200px;
+	margin-right: 424px;
+}
+div#vsa h1#vsa{
+	position: absolute;
+	width: 534px;
+	height: 56px;
+	left: 453px;
+	top: 1448px;
+	font-family: 'Cormorant Garamond', serif;
+	font-style: normal;
+	font-weight: 50;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #F5F3ED;
+}
+div#vsa img#linha{
+	position: absolute;
+	left: 528px;
+	top: 1508px;
+}
+figure.livraria{
+	position: absolute;
+	left: 324px;
+	top: 1560px;
+	border: 8px solid #F5F3ED;
+	box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+	background-color: #F5F3ED;
+	height: 387.28px;
+	border-radius: 8px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+figure.livraria figcaption{
+	position: relative;
+	left: 84px;
+	top: 16.46px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure.livraria figcaption::before{
+	border-bottom: 3px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 78px;
+    top: 33px;
+	left: 22px;
+	border-radius: 1px;
+}
+figure.cafeteria{
+	position: absolute;
+	left: 834px;
+	top: 1560px;
+	border: 8px solid #F5F3ED;
+	box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+	background-color: #F5F3ED;
+	height: 387.28px;
+	border-radius: 8px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+figure.cafeteria figcaption{
+	position: relative;
+	left: 75px;
+	top: 16px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.02em;
+	color: #1F0C00;
+}
+figure.cafeteria figcaption::before{
+	border-bottom: 3px solid var(--color-botao);
+	content: "";
+	position: absolute;
+    width: 78px;
+    top: 33px;
+	left: 32px;
+	border-radius: 1px;
+}
+ul#botao3{
+	background-color: #FBC9A8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 26.5px;
+	gap: 20px;
+	position: absolute;
+	left: 586px;
+	top: 2004px;
+	border-radius: 8px;
+	width: 228px;
+}
+ul#botao3:hover {
+	background-color: #FFDFCA;
+}
+ul#botao3 li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 33px;
+	position: relative;
+	display: inline-block;	
+}
+ul#botao3 li {
+    text-decoration: none;
+	color: #1F0C00;
+}
