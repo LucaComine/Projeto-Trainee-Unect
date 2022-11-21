@@ -101,22 +101,12 @@ color: #1F0C00;
 #ImgemaoLadodoTexto {
 position: absolute;
 width: 750px;
-height: 510.14px;
+height: 690.14px;
 left: 850px;
-top: 137px;
+top: 37px;
 
+clip-path: circle(43% at 50% 45%);
 
-
-}
-
-#ElipsedaImagem {
-position: absolute;
-width: 750px;
-height: 510.14px;
-left: 850px;
-top: 137px;
-
-fill: url(nathan-dumlao-6VhPY27jdps-unsplash.jpg);
 
 }
 
@@ -128,3 +118,236 @@ top: 1350px;
 
     Background: #80451F;
 }
+
+#TitulodaSessão {
+position: absolute;
+width: 245px;
+height: 120%;
+left: 44%;
+top: 55px;
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #F5F3ED;
+}
+#linha-1 {
+position: absolute;
+width: 180px;
+height: 0px;
+left: 45.24%;
+top: 110px;
+
+border: 3px solid #B2784A;
+}
+
+#CarolinaOliveira {
+position: absolute;
+width: 209px;
+height: 30px;
+left: 45%; 
+top: 227px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.02em;
+
+color: #1F0C00;
+}
+
+#linha-2 {
+position: absolute;
+width: 180px;
+height: 0px;
+left: 45.14%; 
+top: 257px;
+
+
+border: 2px solid #B2784A;
+
+}
+#TextoCarolina {
+position: absolute;
+width: 575px;
+height: 112px;
+left: 45.14%;
+top: 298px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #1F0C00;
+}
+
+#LauraOliveira {
+position: absolute;
+width: 209px;
+height: 30px;
+left: 45%; 
+top: 527px;
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+    
+letter-spacing: 0.02em;
+    
+color: #1F0C00;
+}
+
+#TextoLaura {
+position: absolute;
+width: 575px;
+height: 112px;
+left: 45.14%;
+top: 568px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+}
+
+#linha-3 {
+position: absolute;
+width: 150px;
+height: 0px;
+left: 45.14%; 
+top: 557px;
+
+
+border: 2px solid #B2784A;
+}
+
+#JoaoOliveira {
+position: absolute;
+width: 159px;
+height: 30px;
+left: 830px;
+top: 825px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.02em;
+
+color: #1F0C00;
+}
+
+#TextoJoao {
+position: absolute;
+width: 575px;
+height: 140px;
+left: 830px;
+top: 885px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #1F0C00;
+}
+
+#linha-4 {
+position: absolute;
+width: 136px;
+height: 0px;
+left: 830px;
+top: 858px;
+
+border: 2px solid #B2784A;
+
+}
+#retangulo54-1 {
+
+position: absolute;
+width: 996px;
+height: 266px;
+left: 25%; 
+top: 197px;
+
+background: #F5F3ED;
+box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+border-radius: 8px;
+
+}
+
+#retangulo54-2 {
+
+    position: absolute;
+    width: 996px;
+    height: 266px;
+    left: 25%; 
+    top: 497px;
+    
+    background: #F5F3ED;
+    box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+    border-radius: 8px;
+    
+    }
+
+#retangulo54-3 {
+
+    position: absolute;
+    width: 996px;
+    height: 266px;
+    left: 25%; 
+    top: 797px;
+    
+    background: #F5F3ED;
+    box-shadow: 0px 3px 2px rgba(31, 12, 0, 0.1);
+    border-radius: 8px;
+        
+    }
+
+#foto-1 {
+
+position: absolute;
+width: 249px;
+height: 231px;
+left: 25%;
+top: 215px;
+
+clip-path: circle(47% at 50% 50%);
+
+}
+
+#foto-2 {
+
+position: absolute;
+width: 249px;
+height: 231px;
+left: 0,5%;
+top: 20px;
+    
+clip-path: circle(47% at 50% 50%);
+    }
